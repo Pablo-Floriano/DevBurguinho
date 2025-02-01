@@ -70,3 +70,33 @@ button:active{
 p{
     color: white;
 }
+
+@media(max-width: 650px){
+    ul{
+        grid-template-columns: 100px 100px 100px;
+        gap: 30px;
+    }
+
+    li{
+        width: 70px;
+        padding: 5px;
+        height: 100px;
+    }
+    img{
+        width: 60px;
+    }
+    p{
+        font-size: 10px;
+    }
+    main{
+        width: 100vw;
+    }
+    header{
+        gap: 15px;
+    }
+    button{
+        width: 70px;
+        font-size: 16px;
+    }
+
+}
